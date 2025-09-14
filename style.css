@@ -1,0 +1,45 @@
+body {
+font-family: Arial, sans-serif;
+background: #0a0a0a;
+color: #eee;
+text-align: center;
+padding: 50px;
+}
+
+h1 {
+color: #ff4444;
+}
+
+button,
+a.btn {
+display: inline-block;
+margin: 15px;
+padding: 12px 20px;
+background: #ff4444;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover,
+a.btn:hover {
+background: #cc0000;
+}
+
+.contract {
+font-size: 14px;
+margin-top: 20px;
+word-break: break-all;
+}
+
+iframe {
+margin-top: 40px;
+border: none;
+border-radius: 8px;
+width: 100%;
+max-width: 900px;
+height: 600px;
+}
