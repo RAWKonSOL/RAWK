@@ -14,8 +14,37 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<center>
 <h1>$RAWK</h1>
 <p>The memecoin they’re too busy sucking cock to notice.</p>
+
+<div class="suno-embed-container">
+  <iframe 
+    src="https://suno.com/embed/2171a2e5-0a25-4785-a11e-0125911a8a43" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media">
+  </iframe>
+</div>
+
+<style>
+.suno-embed-container {
+  width: 760px;
+  height: 250px;
+  position: relative;
+  overflow: hidden; /* ensures nothing outside the intended rectangle shows */
+}
+
+.suno-embed-container iframe {
+  width: 1000px;
+  height: 300px;
+  transform: scale(0.76);
+  transform-origin: top left;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+</style>
 
 <!-- Buy on Jupiter -->
 <a id="buy-btn1" class="btn" target="_blank">View on Raydium.io</a>
@@ -37,5 +66,7 @@ Contract: 9BTk2jCyektcN2cegZGvRA5PDfXPr2RkZiagUzkUpump
 <iframe src="https://dexscreener.com/solana/9BTk2jCyektcN2cegZGvRA5PDfXPr2RkZiagUzkUpump?embed=1"></iframe>
 
 <script src="app.js"></script>
+
+</center>
 </body>
 </html>
