@@ -43,3 +43,21 @@ width: 100%;
 max-width: 900px;
 height: 600px;
 }
+
+.suno-embed-container {
+  width: 760px;
+  height: 250px;
+  position: relative;
+  overflow: hidden; /* ensures nothing outside the intended rectangle shows */
+}
+
+.suno-embed-container iframe {
+  width: 1000px;
+  height: 300px;
+  transform: scale(0.76);
+  transform-origin: top left;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
