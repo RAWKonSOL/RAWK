@@ -6,6 +6,24 @@ text-align: center;
 padding: 50px;
 }
 
+a:link {
+  color: #46a51a;
+}
+
+a:visited {
+  color: #678993;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:active {
+  color: #a5341a;
+  text-decoration: none;
+}
+
 h1 {
 color: #ff4444;
 }
@@ -36,6 +54,7 @@ word-break: break-all;
 }
 
 iframe {
+margin: 9 auto;
 margin-top: 40px;
 border: none;
 border-radius: 8px;
@@ -45,6 +64,8 @@ height: 600px;
 }
 
 .suno-embed-container {
+  display: block;
+  margin: 0 auto;
   width: 760px;
   height: 250px;
   position: relative;
@@ -60,4 +81,11 @@ height: 600px;
   position: absolute;
   top: 0;
   left: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.suno-embed {
+  display: block;
+  margin: 0 auto;
 }
